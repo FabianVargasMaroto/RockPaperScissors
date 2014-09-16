@@ -5,6 +5,7 @@ using System.Text;
 
 namespace RockPaperScissors.Tournament
 {
+    //The representation of a player.
     public class Player
     {
         public string _name;
@@ -22,7 +23,7 @@ namespace RockPaperScissors.Tournament
         }
 
 
-        public char getPlay()
+        public string getPlay()
         {
             return _play;
         }
